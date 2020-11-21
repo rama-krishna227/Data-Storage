@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-21T12:33:31.164Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="UAmlXyV5MkmbpHbrA2J4" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-21T13:01:44.153Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="k9ttjxooT1qJsWSDpMf7" version="13.10.0" type="github">
   <diagram id="nlnpD7h9nG1c3ba-XkcP" name="Page-1">
     <mxGraphModel dx="1056" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -16,32 +16,32 @@
         <mxCell id="Ff9cAJZjgPY4U1qpb2fC-5" value="DayOfWeek&#xa;&#xa;DayOfMonth&#xa;&#xa;Month&#xa;&#xa;Quarter&#xa;&#xa;Year" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="Ff9cAJZjgPY4U1qpb2fC-2">
           <mxGeometry y="86" width="160" height="134" as="geometry" />
         </mxCell>
-        <mxCell id="Ff9cAJZjgPY4U1qpb2fC-8" value="Drug Intake Event" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="380" y="200" width="160" height="266" as="geometry" />
+        <mxCell id="Ff9cAJZjgPY4U1qpb2fC-8" value="DRUG_INTAKE_EVENT (Fact Table)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="350" y="200" width="250" height="266" as="geometry" />
         </mxCell>
         <mxCell id="Ff9cAJZjgPY4U1qpb2fC-9" value="CalendarKey (FK)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="Ff9cAJZjgPY4U1qpb2fC-8">
-          <mxGeometry y="26" width="160" height="30" as="geometry" />
+          <mxGeometry y="26" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ff9cAJZjgPY4U1qpb2fC-10" value="IngredientKey (FK)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="Ff9cAJZjgPY4U1qpb2fC-8">
-          <mxGeometry y="56" width="160" height="30" as="geometry" />
+          <mxGeometry y="56" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ff9cAJZjgPY4U1qpb2fC-32" value="DrugKey (FK)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="Ff9cAJZjgPY4U1qpb2fC-8">
-          <mxGeometry y="86" width="160" height="30" as="geometry" />
+          <mxGeometry y="86" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ff9cAJZjgPY4U1qpb2fC-33" value="NurseKey (FK)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="Ff9cAJZjgPY4U1qpb2fC-8">
-          <mxGeometry y="116" width="160" height="30" as="geometry" />
+          <mxGeometry y="116" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ff9cAJZjgPY4U1qpb2fC-34" value="PatientKey (FK)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="Ff9cAJZjgPY4U1qpb2fC-8">
-          <mxGeometry y="146" width="160" height="30" as="geometry" />
+          <mxGeometry y="146" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ff9cAJZjgPY4U1qpb2fC-35" value="DIENumber" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="Ff9cAJZjgPY4U1qpb2fC-8">
-          <mxGeometry y="176" width="160" height="30" as="geometry" />
+          <mxGeometry y="176" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ff9cAJZjgPY4U1qpb2fC-36" value="DIETime" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="Ff9cAJZjgPY4U1qpb2fC-8">
-          <mxGeometry y="206" width="160" height="30" as="geometry" />
+          <mxGeometry y="206" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ff9cAJZjgPY4U1qpb2fC-37" value="Quantity x Dosage" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="Ff9cAJZjgPY4U1qpb2fC-8">
-          <mxGeometry y="236" width="160" height="30" as="geometry" />
+          <mxGeometry y="236" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ff9cAJZjgPY4U1qpb2fC-12" value="Nurse" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="640" y="70" width="160" height="116" as="geometry" />
@@ -95,8 +95,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="350" y="110" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="360" y="241" />
-              <mxPoint x="360" y="110" />
+              <mxPoint x="320" y="241" />
+              <mxPoint x="320" y="110" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -113,8 +113,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="330" y="550.7272338867188" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="350" y="301" />
-              <mxPoint x="350" y="551" />
+              <mxPoint x="330" y="301" />
+              <mxPoint x="330" y="551" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -122,8 +122,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="600" y="110" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="580" y="331" />
-              <mxPoint x="580" y="111" />
+              <mxPoint x="610" y="331" />
+              <mxPoint x="610" y="111" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -131,8 +131,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="600" y="410" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="580" y="361" />
-              <mxPoint x="580" y="401" />
+              <mxPoint x="610" y="361" />
+              <mxPoint x="610" y="401" />
             </Array>
           </mxGeometry>
         </mxCell>
